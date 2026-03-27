@@ -1,4 +1,4 @@
-#include "../include/Cargo.h"
+#include "Cargo.h"
 #include <iostream>
 #include <iomanip>
 using namespace std;
