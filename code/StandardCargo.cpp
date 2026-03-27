@@ -8,12 +8,11 @@ StandardCargo::StandardCargo(int id, const std::string& description, double weig
 
 double StandardCargo::getEffectiveWeight() const {
     // TODO
-    return getWight(); // placeholder
+    return getWeight(); // placeholder
 }
 
 Cargo* StandardCargo::clone() {
     // TODO
-    setTotalCargoCreated(getTotalCargoCreated() + 1);
     return new StandardCargo(*this); // placeholder
 }
 
