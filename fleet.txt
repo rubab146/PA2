@@ -1,0 +1,16 @@
+LightFreighter 1 Firefly
+Standard    101 FoodSupplies  10.0
+Hazardous   102 Uranium        5.0  3
+Perishable  103 Vaccines       2.0  7
+END
+
+HeavyLifter 2 Goliath
+Standard 201 MachinePartsA 40.0
+Standard 202 MachinePartsB 35.0
+Hazardous 203 Acids 8.0 1
+END
+
+StealthRunner 3 Phantom 0.75
+Perishable 301 BioSamples 1.5 3
+Standard   302 DataCores  0.5
+END

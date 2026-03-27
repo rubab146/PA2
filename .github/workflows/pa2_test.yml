@@ -1,0 +1,16 @@
+name: PA2_Autograder
+on: [push]
+
+jobs:
+  grade_assignment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Install Compiler
+        run: sudo apt-get update && sudo apt-get install -y build-essential
+
+      - name: Run Grade Report
+        run: make grade
+        
